@@ -17,7 +17,7 @@ int main(void)
 			case 16: printf("sixteen.\n"); break;
 			case 17: printf("seventeen.\n"); break;
 			case 18: printf("eighteen.\n"); break;
-			case 19: printf("eighteen.\n"); break;
+			case 19: printf("nineteen.\n"); break;
 		}
 	}
 	else if (number >= 20) {
