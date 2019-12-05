@@ -19,10 +19,10 @@ int main(void)
 
 	monthly_interest_rate = r / 100 / 12;
 	payment = a * (1 + monthly_interest_rate) - p;
-	printf("Balance remaining after payment: $%.2f\n", payment);
-
+	printf("Balance remaining after payment: $%.2f\n", payment);                                                                         	
+	
 	for (i = 1; i <= n - 1; i++) {
-		payment = payment * (1 + monthly_interest_rate) - p;	
+		payment = payment * (1 + monthly_interest_rate) - p;
 		printf("Balance remaining after payment: $%.2f\n", payment); 		
 	}
 	return 0;
